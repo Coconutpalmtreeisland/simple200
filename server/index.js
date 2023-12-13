@@ -20,7 +20,7 @@ app.use("/image", express.static("./image"));
 
 // express.router 사용 post.js, user.js 연동
 app.use("/api/post", require("./router/post.js"));
-// app.use("/api/user", require("./router/user.js"));
+app.use("/api/user", require("./router/user.js"));
 
 app.listen(port, () => {
     mongoose

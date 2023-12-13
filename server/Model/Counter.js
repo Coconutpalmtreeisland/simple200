@@ -4,6 +4,7 @@ const countSchema = new mongoose.Schema(
     {
         name: String,
         postNum: Number,
+        UserNum: Number,
     },
     { collection: "counter" });
 
