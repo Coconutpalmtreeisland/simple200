@@ -2,12 +2,12 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD28TsB9U2VQ7XUVmZeFLKqgp9sOBJON5Y",
-    authDomain: "simple-test-2f7c6.firebaseapp.com",
-    projectId: "simple-test-2f7c6",
-    storageBucket: "simple-test-2f7c6.appspot.com",
-    messagingSenderId: "701890977223",
-    appId: "1:701890977223:web:270d4d017dd77a07d00de2"
+    apiKey: "AIzaSyDHjqA3O8rI-E99GSzPVBPDrfc8u3rEKBE",
+    authDomain: "simple200.firebaseapp.com",
+    projectId: "simple200",
+    storageBucket: "simple200.appspot.com",
+    messagingSenderId: "1012579919298",
+    appId: "1:1012579919298:web:0866fd6a27dc9c7b54a25b"
 };
 
 firebase.initializeApp(firebaseConfig);
